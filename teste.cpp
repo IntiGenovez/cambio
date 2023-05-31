@@ -8,7 +8,7 @@ int main() {
     string moedas[] = {"Bolivar Soberano venezuelano", "Boliviano boliviano", "Guarani paraguaio", "Peso argentino", "Peso uruguaio", "Real brasileiro"};
 
     // Taxas de câmbio
-    float taxas[] = {0.000023, 0.142, 0.00015, 0.010, 0.023, 0.18}, resultado;
+    float taxas[] = {5.16, 1.36, 1435.89 , 47.31, 7.66, 1}, resultado;
 
     exibirParticipantes();
 

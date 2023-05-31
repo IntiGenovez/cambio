@@ -71,7 +71,7 @@ TransacaoCambio obterMoedas(string moedas[], float taxas[]) {
 }
 
 float cambiar(int moeda_origem, int moeda_destino, float quantidade, float taxas[]) {
-    float valor_convertido = quantidade * taxas[moeda_origem - 1] / taxas[moeda_destino - 1];
+    float valor_convertido = quantidade * taxas[moeda_destino - 1] / taxas[moeda_origem - 1];
     return valor_convertido;
 }
 
